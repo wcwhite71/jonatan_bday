@@ -1,6 +1,23 @@
 body {
   background-color: #66c2ff;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  -webkit-flex
 }
+
+.headerbackground {
+    position: absolute;
+      top: 0;
+      left: 0;
+}
+
+.familypic {
+    position: relative;
+    width: 20%;
+    top: -200px;
+    float: right;
+}
+
 h1, h3 {
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: #ff0000;
