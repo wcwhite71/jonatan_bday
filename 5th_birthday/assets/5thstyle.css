@@ -1,19 +1,8 @@
 body {
-  background-color: #f8fc03;
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 40px;
-}
-
-path {
-  fill: transparent;
-}
-
-text {
-  fill: #8643c4;
-}
-
-a {
-    padding-right: 50px;
+  background-color: #66c2ff;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  -webkit-flex
 }
 
 .headerbackground {
@@ -110,7 +99,6 @@ h5 {
 
 .balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
 .balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
-
 
 /* The Modal (background) */
 .modal {
